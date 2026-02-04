@@ -1,15 +1,16 @@
-/** @type {import('next').NextConfig} */
+const repo = "letter-love";
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
+  output: "export", // genera la carpeta /out con el build estático
+  basePath: isProd ? `/${repo}` : "",
+  assetPrefix: isProd ? `/${repo}/` : "",
+  trailingSlash: true, // opcional, ayuda en Pages con rutas estáticas
+  images: {
+    unoptimized: true, // ya lo tenías
+  },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  allowedDevOrigins: [
-    "http://26.252.26.209:3000",
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-  ],
-  images: {
-    unoptimized: true,
   },
 };
 
