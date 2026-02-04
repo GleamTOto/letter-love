@@ -16,7 +16,7 @@ export function NameInputSection({
   const sectionRef = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
-  const allowedNames = ["Anamaria", "anamaria", "Ana", "Anita", "ana", "anita"];
+  const allowedNames = ["Anamaria", "anamaria", "Anita", "anita"];
   const trimmedName = recipientName.trim();
   const hasInput = trimmedName.length > 0;
   const isAllowedName = allowedNames.includes(trimmedName);
