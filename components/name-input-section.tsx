@@ -63,8 +63,8 @@ export function NameInputSection({
         </div>
 
         <h2 className="font-sans text-lg md:text-xl text-foreground mb-4">
-          Si crees que esto ha llegado a tocar tu corazón, escribe tu nombre
-          aquí... verás algo bonito
+          Si crees que esto ha llegado a tocar tu corazón, abajo verás algo
+          bonito
         </h2>
 
         <p className="font-sans text-muted-foreground mb-8">
