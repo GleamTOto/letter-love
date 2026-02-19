@@ -129,7 +129,7 @@ export function FinalSection({ recipientName }: FinalSectionProps) {
         >
           <div className="inline-block bg-card/60 backdrop-blur-sm rounded-full px-8 py-4 border border-border/50">
             <p className="font-serif text-4xl md:text-3xl text-muted-foreground italic">
-              Eres al amor de mi vida
+              Eres el amor de mi vida
             </p>
           </div>
         </div>
